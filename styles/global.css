@@ -1,0 +1,26 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "theme";
+
+body {
+  /* @apply text-base; */
+  @apply text-primary;
+  @apply bg-primary;
+  @apply antialiased;
+  @apply selection:bg-selection;
+  @apply selection:text-selection;
+
+  letter-spacing: 0.000001px;
+}
+
+a {
+  @apply underline;
+}
+
+p {
+  @apply leading-6;
+  @apply font-normal;
+  @apply my-3;
+}

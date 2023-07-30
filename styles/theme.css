@@ -1,0 +1,45 @@
+:root {
+  --white: 255 255 255;
+  --black: 0 0 0;
+
+  --gray-050: 250 250 250;
+  --gray-100: 235 235 235;
+  --gray-200: 225 225 225;
+  --gray-300: 193 193 193;
+  --gray-400: 161 161 161;
+  --gray-500: 129 129 129;
+  --gray-600: 97 97 97;
+  --gray-700: 65 65 65;
+  --gray-800: 43 43 43;
+  --gray-850: 26 26 26;
+  --gray-900: 17 17 17;
+
+  --blue-050: 243 251 255;
+  --blue-100: 221 242 255;
+  --blue-200: 169 223 254;
+  --blue-300: 115 199 249;
+  --blue-400: 71 183 248;
+  --blue-500: 30 157 231;
+  --blue-600: 11 110 197;
+  --blue-700: 20 78 182;
+  --blue-800: 14 54 130;
+  --blue-900: 8 32 78;
+
+  --bg-primary: var(--gray-50);
+  --bg-secondary: var(--gray-050);
+  --bg-selection: var(--gray-900);
+  --text-primary: var(--gray-850);
+  --text-secondary: var(--gray-600);
+  --text-blue: var(--blue-600);
+  --text-selection: var(--gray-050);
+}
+
+.dark {
+  --bg-primary: var(--gray-900);
+  --bg-secondary: var(--gray-850);
+  --bg-selection: var(--gray-050);
+  --text-primary: var(--gray-050);
+  --text-secondary: var(--gray-400);
+  --text-blue: var(--blue-400);
+  --text-selection: var(--gray-850);
+}
