@@ -37,7 +37,7 @@ export const metadata = {
   },
   twitter: {
     title: "Ganesh Pawar",
-    card: "summary",
+    card: "summary_large_image",
     images: ["/favicon.svg"],
     creator: "@gnasamx",
   },
