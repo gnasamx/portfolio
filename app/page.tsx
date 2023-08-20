@@ -6,10 +6,7 @@ export default function Home() {
       <p>Hi, I&apos;m Ganesh. I live in Mumbai, India.</p>
       <p>
         I create user interfaces for sites and apps. I’m currently working at{" "}
-        <Link href="https://www.stewart.com/en.html">Stewart</Link>. Previously
-        I was creating and directing corporate and new business marketing sites,
-        and apps at{" "}
-        <Link href="https://www.acceleratebs.com">AccelerateBSi</Link>.
+        <Link href="https://www.stewart.com/en.html">Stewart</Link>.
       </p>
       <p>
         Feel free to say{" "}
