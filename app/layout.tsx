@@ -2,6 +2,7 @@ import { AnalyticsWrapper } from "@/components/analytics";
 import { ThemeProvider } from "@/components/theme-provider";
 import "@/styles/global.css";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -60,6 +61,11 @@ export default function RootLayout({
           </div>
         </ThemeProvider>
         <AnalyticsWrapper />
+        <Script
+          defer
+          data-domain="gnasamx.site"
+          src="https://plausible.io/js/script.js"
+        ></Script>
       </body>
     </html>
   );
