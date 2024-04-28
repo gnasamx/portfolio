@@ -1,8 +1,7 @@
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import Analytics from "@/components/analytics";
 import { ThemeProvider } from "@/components/theme-provider";
 import "@/styles/global.css";
 import { Inter } from "next/font/google";
-import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -60,7 +59,7 @@ export default function RootLayout({
             </main>
           </div>
         </ThemeProvider>
-        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
