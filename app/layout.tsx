@@ -1,4 +1,4 @@
-import { AnalyticsWrapper } from "@/components/analytics";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ThemeProvider } from "@/components/theme-provider";
 import "@/styles/global.css";
 import { Inter } from "next/font/google";
@@ -60,12 +60,7 @@ export default function RootLayout({
             </main>
           </div>
         </ThemeProvider>
-        <AnalyticsWrapper />
-        <Script
-          defer
-          data-domain="gnasamx.site"
-          src="https://plausible.io/js/script.js"
-        ></Script>
+        <SpeedInsights />
       </body>
     </html>
   );
